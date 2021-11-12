@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <template if:true={record}>
+            <template if:true={record.fields.Poster_URL__c.value}>
+            <div class="slds-align_absolute-center">
+                <img src={record.fields.Poster_URL__c.value} width="300" height="400">        
+            </div>
+        </template>
+        </template>
+    </lightning-card>
+</template>

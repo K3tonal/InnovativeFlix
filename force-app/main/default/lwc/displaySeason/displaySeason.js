@@ -1,6 +1,6 @@
 import getSeasonList from '@salesforce/apex/TvSeriesSeasonsEpisodesLwcController.getSeasonList';
 import { LightningElement, api, wire, track } from 'lwc';
-import SAMPLEMC from "@salesforce/messageChannel/TvSeriesMessageChannel__c";
+import SAMPLEMC from "@salesforce/messageChannel/tvSeriesMessageChannel__c";
 import {MessageContext, publish} from 'lightning/messageService';
 
 const COLUMNS = [

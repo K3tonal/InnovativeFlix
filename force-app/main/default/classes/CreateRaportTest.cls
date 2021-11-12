@@ -1,4 +1,3 @@
-
 /*   @author name <wojciech.krasowski@accenture.com> * @date 11/08/2021 * 
 * *  @description Test class fro CreateReportQue
 * *  @Task: POX-1 
@@ -38,4 +37,3 @@ public with sharing class CreateRaportTest {
         System.assertNotEquals('Completed' , [SELECT Id , Status FROM AsyncApexJob WHERE Id=:jobId][0].Status);
     }
 }
-

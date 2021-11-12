@@ -1,4 +1,4 @@
-import SAMPLEMC from "@salesforce/messageChannel/TvSeriesMessageChannel__c";
+import SAMPLEMC from "@salesforce/messageChannel/tvSeriesMessageChannel__c";
 import { subscribe, MessageContext, RECORD_SCOPE } from 'lightning/messageService';
 import getEpisodeList from "@salesforce/apex/TvSeriesSeasonsEpisodesLwcController.getEpisodeList";
 import { LightningElement, wire, api } from 'lwc';

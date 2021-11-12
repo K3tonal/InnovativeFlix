@@ -1,0 +1,11 @@
+<template>
+    <lightning-card>
+        <template if:true={record}>
+            <template if:true={record.fields.Trailer_URL__c.value}>
+                <div class="slds-align_absolute-center">
+                    <iframe width="400" height="300" src={record.fields.Trailer_URL__c.value} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </template>
+        </template>
+    </lightning-card>
+  </template>
